@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>计算器</title>
+</head>
+<body>
+    <div class='background'>
+        <div class='dash'></div>
+        <div class="btns">
+            <div class="btn" id='backspace'> ← </div>
+            <div class="btn" id='clear'> C </div>
+            <div class="btn"> e </div>
+            <div class="btn">Pi</div>
+            <div class="btn"> √ </div>
+            <div class="btn"> ( </div>
+            <div class="btn"> ) </div>
+            <div class="btn"> tan </div>
+            <div class="btn"> sin </div>
+            <div class="btn"> cos </div>
+            <div class="btn"> 7 </div>
+            <div class="btn"> 8 </div>
+            <div class="btn"> 9 </div>
+            <div class="btn"> ÷ </div>
+            <div class="btn"> mod </div>
+            <div class="btn"> 4 </div>
+            <div class="btn"> 5 </div>
+            <div class="btn"> 6 </div>
+            <div class="btn"> × </div>
+            <div class="btn" id='pow'> ^ </div>
+            <div class="btn"> 1 </div>
+            <div class="btn"> 2 </div>
+            <div class="btn"> 3 </div>
+            <div class="btn"> - </div>
+            <div class="btn" style="width: 157px;"> 0 </div>
+            <div class="btn"> . </div>
+            <div class="btn"> + </div>
+            <div class="btn equal" style="height: 120px;float:right;margin-top: -46px; margin-right: 15px;"> = </div>
+        </div>
+        
+    </div>
+    <div class='introduce'>
+        <p>声明：cos、sin、tan以及√ 需要在对应的数字内加括号，例如:sin(10)</p> 
+        <p>使用 "^" 时会对前部分自动进行运算再与后部分运算最后才求幂</p>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>

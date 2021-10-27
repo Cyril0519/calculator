@@ -1,0 +1,62 @@
+.background{
+    width: 500px;
+    height: 700px;
+    background-color: beige;
+    position: relative;
+    left: 450px;
+    top: 40px;
+}
+
+.dash {
+    background: rgb(58, 192, 255);
+    position: absolute;
+    width: 460px;
+    height: 95px;
+    left: 20px;
+    top: 20px;
+    text-align: left;
+    line-height: 95px;
+    font-size: 40px;
+    overflow: pass;  /* todo */
+}
+
+.btns {
+position: relative;
+width: 460px;
+height: 505px;
+background: rgb(37, 205, 247);
+top: 155px;
+left: 20px;
+}
+
+.btn {
+
+display: inline-block;
+width: 66px;
+height: 42px;
+background: rgb(237, 247, 107);
+margin-top: 32px;
+margin-left: 15px;
+text-align: center;
+font-size: 25px;
+font-weight: 600;
+line-height: 43px;
+border:  solid;
+box-shadow:2px 2px 3px rgba(85, 84, 84, 0.986);
+}
+
+.btn:hover{
+    box-shadow:5px 5px 5px rgba(85, 84, 84, 0.986);
+}
+
+.introduce{
+    width: 500px;
+    position: absolute;
+    bottom: 50px;
+    left: 460px;
+    font-size: 10px;
+    color: rgb(150, 150, 150);
+}
+p{
+    margin: 5px;
+}
